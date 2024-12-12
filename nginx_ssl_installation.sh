@@ -114,7 +114,7 @@ if [ "$user_input" == "y" ]; then
     echo -e "\033[32mNginx and SSL Setup Complete, Enjoy!!!!!\033[0m"
     echo "*********************************************"
 else
-    echo "Skipping SSL setup"
+    echo "Skipping SSL setup."
     echo "*********************************************"
     echo -e "\033[32mNginx Setup Complete, Enjoy!!!!!\033[0m"
     echo "*********************************************"
