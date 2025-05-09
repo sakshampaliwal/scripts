@@ -108,7 +108,7 @@ nginx_config+="
 }"
 
 # Write Nginx configuration
-echo "$nginx_config" | sudo tee /Etc/nginx/sites-available/$domain
+echo "$nginx_config" | sudo tee /etc/nginx/sites-available/$domain
 
 # Enable site by creating symlink and remove default site
 sudo ln -s /etc/nginx/sites-available/$domain /etc/nginx/sites-enabled/
